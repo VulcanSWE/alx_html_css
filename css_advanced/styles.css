@@ -36,17 +36,18 @@ header{
     text-decoration: none;
     color: white;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .schooled{
     font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 120px;
+    font-size: 235px;
     color: white;
     text-align: center;
     margin: 0 auto;
     display: block;
+    margin-top: 20rem;
 }
 
 .pair {
@@ -57,6 +58,7 @@ header{
     justify-content: center;
     padding-left: 5rem ;
     font-size: 1.5rem;
+    margin-top: 10rem;
 }
 
 .pair-s {
@@ -64,17 +66,25 @@ header{
     color: white;
     position: relative;
     font-size: 1.5rem;
+    margin-top: 10rem;
 }
 
 
 #register{
-    background-color: #FF6A3D;
+    background-color: #C271FF;
     border: none;
-    border-radius: 8px;
+    display: block;
+    border-radius: 20px;
     color: white;
     padding: 1rem 2rem;
     font-size: 1.25rem;
     font-weight: 600;
     cursor: pointer;
-    margin-top: 2rem;
+    margin-top: 8rem;
+    margin-left: 89rem;
 }
+
+#learn{
+    color: #C271FF;
+}
+
