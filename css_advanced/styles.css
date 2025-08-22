@@ -4,6 +4,7 @@ body{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
 }
 
 /*Setting the background image for the nav and main section*/
@@ -15,17 +16,17 @@ body{
 }
 
 header{
-    margin-left: 500px;
-    padding: 35.02px;
-    padding-left: 171px;
-    display: flex;
+    margin-left: 31.25rem;
+    padding: 2rem;
+    padding-left: 11;
+    display: inline-flex;
 }
 
 .nav-links{
     display: inline-flex;
     list-style: none;
-    padding-left: 1500px;
-    gap: 102px;
+    padding-left: 93.75rem;
+    gap: 6.275rem;
     font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-decoration: none;
@@ -35,4 +36,45 @@ header{
     text-decoration: none;
     color: white;
     font-weight: 700;
+    font-size: 1rem;
+}
+
+.schooled{
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.pair {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding-left: 5rem ;
+    font-size: 1.5rem;
+}
+
+.pair-s {
+    padding-left: 85rem;
+    color: white;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+
+#register{
+    background-color: #FF6A3D;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 2rem;
 }
