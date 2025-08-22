@@ -43,6 +43,9 @@ You are not allowed to install, import or use external libraries. This website m
 Your code should be W3C compliant and validate with W3C-Validator
 Quiz questions
 Great! You've completed the quiz successfully! Keep going! (Show quiz)
+
+
+![Image](./assets/finaldesign.jpg)
 Tasks
 0. README and objectives!
 mandatory
