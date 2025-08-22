@@ -1,0 +1,38 @@
+/*Base reset/style for the styling*/
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/*Setting the background image for the nav and main section*/
+.hero-section {
+    background-image: url('./assets/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header{
+    margin-left: 500px;
+    padding: 35.02px;
+    padding-left: 171px;
+    display: flex;
+}
+
+.nav-links{
+    display: inline-flex;
+    list-style: none;
+    padding-left: 1500px;
+    gap: 102px;
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
