@@ -162,3 +162,52 @@ main section div h2{
     color: #FFFFFF;
     margin-top: 10px;
 }
+
+/*Purple background testimonial section*/
+.partone_testimonial {
+    background-color: #C271FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    gap: 3rem;
+    margin-top: 0rem;
+}
+
+.partone_testimonial img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.tutorials-testimony {
+    color: white;
+    max-width: 730px;
+}
+
+.tutorials-testimony blockquote {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 34px;
+    margin-bottom: 1rem;
+    margin-left: -0.5rem;
+}
+
+.tutorials-testimony h3 {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.tutorials-testimony p {
+    font-family: Source Sans Pro, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.most{
+    margin-top: 50em;
+}
