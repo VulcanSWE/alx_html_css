@@ -30,11 +30,13 @@ header {
     padding-left: 171.59px;
 }
 
+/*logo size*/
 .logo {
     width: 167.02px;
     height: 29.46px;
 }
 
+/*navigation menu*/
 header ul {
     list-style: none;
     display: inline-flex;
@@ -53,6 +55,7 @@ header ul li a {
     padding-left: 39px;
 }
 
+/*main section*/
 main section div h1 {
     font-family: Source Sans Pro;
     font-weight: 700;
