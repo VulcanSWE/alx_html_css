@@ -1,9 +1,83 @@
 /*Base Reset*/
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Sans Pro 3, Arial, sans-serif;
+    width: 1440px;
+    height: 3718px;
     background-color: #f4f4f4;
-    color: #333;
+    color: #ffffff;
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33.6px;
+    letter-spacing: 0px;
+
+}
+
+/*first section*/
+.first-section {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 900px;
+}
+
+/*header section*/
+header {
+    padding-top: 35.02px;
+    padding-left: 171.59px;
+}
+
+.logo {
+    width: 167.02px;
+    height: 29.46px;
+}
+
+header ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 50px;
+    padding-left: 650px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 27.36px;
+    letter-spacing: 0px;
+    padding-left: 39px;
+}
+
+main section div h1 {
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.smiles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* space between SMILES, GRIN, LAUGH */
+    margin-top: -110px;
+    margin-left: -57PX;
+
+}
+
+.smiles span {
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
 }
