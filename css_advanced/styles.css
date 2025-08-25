@@ -1,10 +1,11 @@
 /*Base Reset*/
 body {
-    margin: 0;
+    margin: 0 auto;           /* Centers the body horizontally */
     padding: 0;
     box-sizing: border-box;
-    width: 1440px;
-    height: 3718px;
+    width: 100%;             /* Changed from fixed 1440px */
+    max-width: 1440px;       /* Added max-width instead of fixed width */
+    min-height: 100vh;       /* Changed from fixed height */
     background-color: #f4f4f4;
     color: #ffffff;
     font-family: Source Sans Pro, sans-serif;
@@ -12,6 +13,11 @@ body {
     font-size: 22px;
     line-height: 33.6px;
     letter-spacing: 0px;
+    display: flex;           /* Added flex display */
+    flex-direction: column;  /* Stack children vertically */
+    align-items: center;
+    justify-content: center;  /* Centers content vertically */
+    overflow-x: hidden; 
 
 }
 
@@ -69,10 +75,9 @@ main section div h1 {
 .smiles {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    /* space between SMILES, GRIN, LAUGH */
+    gap: 70px; /* space between SMILES, GRIN, LAUGH */
     margin-top: -110px;
-    margin-left: -57PX;
+    margin-left: -25PX;
 
 }
 
@@ -84,3 +89,42 @@ main section div h1 {
     letter-spacing: 0px;
     text-align: center;
 }
+
+main section div button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 44px;
+    background: #C271FF;
+    border-radius: 30px;
+    border: none;
+    font-family: Source Sans Pro, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 14px 28px;
+
+}
+
+main section div h2{
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-weight: 100;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF !important ;
+    margin-top: 150px;
+}
+
+/*learn from the pros section*/
+.learn-section {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 190px;
+    color: #C271FF !important;
+}
+
