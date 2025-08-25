@@ -117,14 +117,48 @@ main section div h2{
     letter-spacing: 0px;
     text-align: center;
     color: #FFFFFF !important ;
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 /*learn from the pros section*/
 .learn-section {
     font-weight: 700;
     text-align: center;
-    margin-top: 190px;
+    margin-top: 180px;
     color: #C271FF !important;
 }
 
+/*The pros section*/
+.pros {
+    display: flex;
+    justify-content: center;
+    gap: 70px; /* space between the images */
+    margin-top: 35px;
+}
+
+.pros div img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.pros div p{
+    font-family: Source Sans Pro;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pros div h3{
+    font-family: Source Sans Pro;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
